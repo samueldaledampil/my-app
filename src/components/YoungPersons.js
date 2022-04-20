@@ -14,7 +14,7 @@ const YoungPersons = () => {
 
 
     const fetchData = async () => {
-        const {data} = await axios.get('http://www.mocky.io/v2/5d73bf3d3300003733081869')
+        const {data} = await axios.get('https://www.mocky.io/v2/5d73bf3d3300003733081869')
         setPersons(data)
     };
 
