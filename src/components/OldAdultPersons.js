@@ -27,7 +27,7 @@ const OldAdultPersons = () => {
                             <div className="card mb-3">
                                 <div className="row">
                                     <div className="col-3 px-4 py-4">
-                                        <img src={userphoto} alt="User Photo"></img>
+                                        <img src={userphoto} alt="User Photo"/>
                                     </div>
                                     <div className="col-9 py-3">
                                         <div className="card-body">

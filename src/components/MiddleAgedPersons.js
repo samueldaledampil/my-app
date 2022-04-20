@@ -26,7 +26,7 @@ const MiddleAgedPersons = () => {
                             <div className="card mb-3">
                                 <div className="row">
                                     <div className="col-3 px-5 py-4">
-                                        <img className="user-photo" src={userphoto} alt="User Photo"></img>
+                                        <img className="user-photo" src={userphoto} alt="User Photo"/>
                                     </div>
                                     <div className="col-9 py-3">
                                         <div className="card-body">
