@@ -9,7 +9,7 @@ import './App.css';
 
 
 
-export default () => {
+const App = () => {
     const [filter, setFilter] = useState("all")
 
     const [allPersonsVisible, setAllPersonsVisible] = useState(false);
@@ -70,3 +70,5 @@ export default () => {
         </div>
     );
 }
+
+export default App;
